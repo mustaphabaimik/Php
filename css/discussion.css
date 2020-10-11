@@ -1,0 +1,13 @@
+.discussion
+{
+	width: 100%;
+	
+	background-color: red;
+	padding:20px;
+}
+.discussion .img-disc
+{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}

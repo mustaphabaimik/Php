@@ -1,0 +1,188 @@
+body
+{
+	background-color: #333;
+}
+/*header css*/
+header
+{
+	width: 100%;
+	height: 50px;
+	background-color: #5D8CAE;
+	position:fixed;
+	top:0;
+	left:0;
+	padding-bottom: 20px;
+	
+}
+.logo
+{
+	color:black;
+	font-size: 30px;
+	margin-left: 10px;
+    float:left;
+    text-transform: uppercase;
+letter-spacing: 5px;
+}
+.navbar
+{
+	margin-left: 15%;
+	width: 85%;
+	height: 50px;
+	
+}
+
+.navbar .navbar-right 
+{
+    
+    
+    width: 400px;
+    height:50px;
+
+   
+  
+    /*color:black;*/
+   
+}
+.navbar-right .dropdown
+{
+	list-style-type: none;
+	display: inline-block;
+	/*margin-right: 30px;*/
+	width: 150px;
+	height: 45px;
+	text-align: center;
+	 padding-top: 10px;
+
+}
+.navbar-right .user-img-top
+{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+.navbar-right .user-name-top
+{
+	color:#f7f7f7;
+}
+.navbar-right .dropdown:hover
+{
+	background-color:  #6493b5;
+	
+}
+.navbar-right .user
+{
+	width: 300px;
+	height:200px;
+	text-align: center;
+	background-color:#5D8CAE;
+   /*margin-top: 8px;*/
+   color:#f7f7f7;
+   padding: 10px;
+   border-radius: 5px;
+}
+.navbar-right .user-header img
+{
+    width: 90px;
+    height: 90px;
+}
+
+header .glyphicon
+{
+      color: white;
+}
+
+header .list_messages
+{
+	background-color: #ddd;
+	width: 300px;
+	color:black;
+	padding:20px;
+}
+header .sms
+{
+	background-color: white;
+	width: 270px;
+	height: 50px;
+	/*border: 2px solid black;*/
+	overflow: hidden;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+/*aside css*/
+aside
+{
+	width: 15%;
+	height:600px;
+	background-color: #333;
+	float: left;
+	padding-top:70px;
+
+	
+}
+aside ul li
+{
+   font-size: 15px;
+font-family:'Sedgwick Ave', cursive;
+margin-top: 15px; 
+list-style-type: none;
+/*border-bottom:1px solid white;*/
+margin-left: -20px;
+}
+aside .img-ami
+{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	
+}
+
+
+/*section css*/
+section
+{
+	padding-top: 70px;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 85%;
+	
+	float: right;
+	background-color: #eee;
+	border: 2px solid black;
+
+}
+section .section-body
+{
+	margin-top: 30px;
+	border-top: 2px solid black;
+	padding-top: 30px;
+}
+
+.publication
+{
+	width: 500px;
+	border-bottom: 1px solid black;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.publication .img-pers
+{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+.publication img
+ {
+ 	width: 300px;
+ }
+.publication h3,h6
+{
+	display: inline-block;
+}
+.publication a
+{
+     margin-left: 20px;
+}
+
