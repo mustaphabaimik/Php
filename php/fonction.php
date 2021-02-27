@@ -1,11 +1,7 @@
-
-<!-- add comentaire -->
 <?php 
 
  function getpub()
 {
-
-  // heey
 	                                       
 	 $bdd= new PDO('mysql:host=localhost;dbname=tweetemsi','root','');
       $requete = $bdd ->prepare ('SELECT * FROM publications order by pub_date desc');
