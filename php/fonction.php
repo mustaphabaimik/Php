@@ -1,5 +1,3 @@
-
-<!-- yeeeeessss -->
 <?php 
 
  function getpub()
